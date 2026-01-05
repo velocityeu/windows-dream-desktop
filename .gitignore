@@ -1,0 +1,15 @@
+# Claude Code settings
+.claude/
+
+# Windows reserved file names
+nul
+con
+prn
+aux
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+~$*

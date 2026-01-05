@@ -1,0 +1,63 @@
+{
+  "General": {
+    "ScriptVersion": "1.0.0",
+    "LogPath": "%TEMP%\\DreamDesktopSetup.log",
+    "CreateRestorePoint": true
+  },
+  "Edge": {
+    "Homepage": "https://www.velocity-eu.com",
+    "StartupAction": "OpenHomepage",
+    "SearchEngine": {
+      "Name": "Google",
+      "SearchURL": "https://www.google.com/search?q={searchTerms}",
+      "SuggestURL": "https://www.google.com/complete/search?q={searchTerms}&client=chrome",
+      "IconURL": "https://www.google.com/favicon.ico"
+    },
+    "AutoSignIn": {
+      "Enabled": true,
+      "UseADAccount": true,
+      "NonRemovableProfile": true
+    },
+    "DisableFirstRun": true,
+    "DisableRecommendations": true,
+    "DisableSpotlight": true,
+    "DisableSyncPrompt": true
+  },
+  "OOBE": {
+    "DisableFinishSetupReminder": true,
+    "DisablePrivacyConsent": true,
+    "DisableConsumerExperience": true,
+    "DisableTipsAndSuggestions": true
+  },
+  "Office": {
+    "DisableFirstRun": true,
+    "DisableOutlookSimplifiedSetup": true,
+    "DisableTeamsAutoStart": true
+  },
+  "OneDrive": {
+    "DisableSetupPopup": true,
+    "RemoveFromStartup": true,
+    "Uninstall": false
+  },
+  "Privacy": {
+    "DisableTelemetry": true,
+    "DisableAdvertisingID": true,
+    "DisableActivityHistory": true,
+    "DisableCortana": true,
+    "DisableCopilot": true,
+    "DisableWindowsRecall": true,
+    "DisableTailoredExperiences": true,
+    "DisableAppLaunchTracking": true
+  },
+  "Bloatware": {
+    "Mode": "Prompt",
+    "PreserveStoreApps": [
+      "Microsoft.WindowsStore",
+      "Microsoft.WindowsCalculator",
+      "Microsoft.Windows.Photos",
+      "Microsoft.WindowsNotepad",
+      "Microsoft.Paint",
+      "Microsoft.ScreenSketch"
+    ]
+  }
+}

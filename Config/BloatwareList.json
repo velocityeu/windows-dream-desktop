@@ -1,0 +1,169 @@
+{
+  "Categories": {
+    "Bing": {
+      "Description": "Bing apps (News, Weather, Finance, Search)",
+      "Apps": [
+        "Microsoft.BingNews",
+        "Microsoft.BingWeather",
+        "Microsoft.BingFinance",
+        "Microsoft.BingSearch"
+      ]
+    },
+    "Cortana": {
+      "Description": "Cortana voice assistant",
+      "Apps": [
+        "Microsoft.549981C3F5F10"
+      ]
+    },
+    "Copilot": {
+      "Description": "Microsoft Copilot AI assistant (Windows 11)",
+      "Apps": [
+        "Microsoft.Copilot",
+        "Microsoft.Windows.Ai.Copilot.Provider"
+      ]
+    },
+    "Xbox": {
+      "Description": "Xbox and gaming apps",
+      "Apps": [
+        "Microsoft.XboxApp",
+        "Microsoft.XboxGameOverlay",
+        "Microsoft.XboxGamingOverlay",
+        "Microsoft.XboxIdentityProvider",
+        "Microsoft.XboxSpeechToTextOverlay",
+        "Microsoft.GamingApp",
+        "Microsoft.GamingServices"
+      ]
+    },
+    "Entertainment": {
+      "Description": "Entertainment and media apps",
+      "Apps": [
+        "Microsoft.ZuneMusic",
+        "Microsoft.ZuneVideo",
+        "Microsoft.MicrosoftSolitaireCollection",
+        "SpotifyAB.SpotifyMusic",
+        "Disney.37853FC22B2CE",
+        "Clipchamp.Clipchamp"
+      ]
+    },
+    "Communication": {
+      "Description": "Communication apps (Teams consumer, Mail)",
+      "Apps": [
+        "MicrosoftTeams",
+        "Microsoft.OutlookForWindows",
+        "microsoft.windowscommunicationsapps",
+        "Microsoft.People"
+      ]
+    },
+    "Productivity": {
+      "Description": "Productivity apps (Office Hub, To Do, etc.)",
+      "Apps": [
+        "Microsoft.MicrosoftOfficeHub",
+        "Microsoft.Office.OneNote",
+        "Microsoft.MicrosoftStickyNotes",
+        "Microsoft.Todos",
+        "Microsoft.PowerAutomateDesktop"
+      ]
+    },
+    "Utilities": {
+      "Description": "System utilities and help apps",
+      "Apps": [
+        "Microsoft.GetHelp",
+        "Microsoft.Getstarted",
+        "Microsoft.WindowsFeedbackHub",
+        "Microsoft.WindowsMaps",
+        "Microsoft.YourPhone",
+        "Microsoft.WindowsAlarms",
+        "Microsoft.MixedReality.Portal",
+        "Microsoft.3DViewer",
+        "Microsoft.Print3D",
+        "Microsoft.Microsoft3DViewer"
+      ]
+    },
+    "ThirdParty": {
+      "Description": "Third-party sponsored apps",
+      "Apps": [
+        "king.com.CandyCrushSaga",
+        "king.com.CandyCrushSodaSaga",
+        "Facebook.Facebook",
+        "Facebook.Instagram",
+        "BytedancePte.Ltd.TikTok",
+        "AmazonVideo.PrimeVideo",
+        "FACEBOOK.FACEBOOK",
+        "5319275A.WhatsAppDesktop",
+        "PandoraMediaInc.29680B314EFC2",
+        "22364Disney.ESPNBetaPWA"
+      ]
+    },
+    "DevTools": {
+      "Description": "Developer tools (usually safe to keep)",
+      "Apps": [
+        "Microsoft.WindowsTerminal",
+        "Microsoft.PowerShell"
+      ],
+      "KeepByDefault": true
+    }
+  },
+  "RemoveAllList": [
+    "Microsoft.549981C3F5F10",
+    "Microsoft.BingNews",
+    "Microsoft.BingWeather",
+    "Microsoft.BingFinance",
+    "Microsoft.BingSearch",
+    "Microsoft.Copilot",
+    "Microsoft.Windows.Ai.Copilot.Provider",
+    "Microsoft.XboxApp",
+    "Microsoft.XboxGameOverlay",
+    "Microsoft.XboxGamingOverlay",
+    "Microsoft.XboxIdentityProvider",
+    "Microsoft.XboxSpeechToTextOverlay",
+    "Microsoft.GamingApp",
+    "Microsoft.ZuneMusic",
+    "Microsoft.ZuneVideo",
+    "Microsoft.MicrosoftSolitaireCollection",
+    "SpotifyAB.SpotifyMusic",
+    "Disney.37853FC22B2CE",
+    "Clipchamp.Clipchamp",
+    "MicrosoftTeams",
+    "Microsoft.OutlookForWindows",
+    "microsoft.windowscommunicationsapps",
+    "Microsoft.People",
+    "Microsoft.MicrosoftOfficeHub",
+    "Microsoft.Office.OneNote",
+    "Microsoft.MicrosoftStickyNotes",
+    "Microsoft.Todos",
+    "Microsoft.PowerAutomateDesktop",
+    "Microsoft.GetHelp",
+    "Microsoft.Getstarted",
+    "Microsoft.WindowsFeedbackHub",
+    "Microsoft.WindowsMaps",
+    "Microsoft.YourPhone",
+    "Microsoft.WindowsAlarms",
+    "Microsoft.MixedReality.Portal",
+    "Microsoft.3DViewer",
+    "Microsoft.Print3D",
+    "Microsoft.Microsoft3DViewer",
+    "king.com.CandyCrushSaga",
+    "king.com.CandyCrushSodaSaga",
+    "Facebook.Facebook",
+    "Facebook.Instagram",
+    "BytedancePte.Ltd.TikTok",
+    "AmazonVideo.PrimeVideo",
+    "5319275A.WhatsAppDesktop"
+  ],
+  "ProtectedApps": [
+    "Microsoft.WindowsStore",
+    "Microsoft.WindowsCalculator",
+    "Microsoft.Windows.Photos",
+    "Microsoft.WindowsNotepad",
+    "Microsoft.Paint",
+    "Microsoft.ScreenSketch",
+    "Microsoft.WindowsTerminal",
+    "Microsoft.DesktopAppInstaller",
+    "Microsoft.StorePurchaseApp",
+    "Microsoft.SecHealthUI",
+    "Microsoft.WebpImageExtension",
+    "Microsoft.HEIFImageExtension",
+    "Microsoft.VP9VideoExtensions",
+    "Microsoft.WebMediaExtensions"
+  ]
+}
